@@ -1,0 +1,14 @@
+[app]
+debug = true
+host = "localhost"
+port = 5000
+
+postgres = { host = "localhost", echo = true }
+
+[app.redis.address]     # {'app': {'redis': {'address': {
+host = "localhost"      #       'host': "localhost",
+port = 6380             #       'port': 6380,
+                        # }}}}
+
+
+# use = "/path/to/some/other/config.toml"

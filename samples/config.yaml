@@ -1,0 +1,12 @@
+app:
+  debug: &DEBUG true
+  host: localhost
+  port: 5000
+
+  postgres:
+    host: localhost
+    echo: *DEBUG
+  redis:
+    address:
+    - localhost
+    - 6380
